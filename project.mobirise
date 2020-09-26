@@ -60,8 +60,8 @@
     "versionPublish": "5.1.9",
     "screenshot": "screenshot.png",
     "global_after_body": "",
-    "global_footer_custom": "<link itemprop=\"thumbnailUrl\" href=\"https://osborn988.github.io/saleshondapasuruan/assets/images/whatsapp-image-2020-09-20-at-19.09.30-774x1032.jpg\"> <span itemprop=\"thumbnail\" itemscope=\"\" itemtype=\"http://schema.org/ImageObject\"> <link itemprop=\"url\" href=\"https://osborn988.github.io/saleshondapasuruan/assets/images/whatsapp-image-2020-09-20-at-19.09.30-774x1032.jpg\"> </span>",
-    "global_header_custom": "<b:if cond='data:blog.url == data:blog.homepageUrl'>\n<meta content='https://osborn988.github.io/saleshondapasuruan/assets/images/whatsapp-image-2020-09-20-at-19.09.30-774x1032.jpg' property='og:image'/>\n</b:if>"
+    "global_footer_custom": "",
+    "global_header_custom": ""
   },
   "pages": {
     "index.html": {
@@ -69,8 +69,8 @@
         "main": true,
         "title": "Marketing Honda Sukorejo Pasuruan",
         "meta_descr": "Marketing Sales Honda Sukorejo Pasuruan",
-        "header_custom": "",
-        "footer_custom": "",
+        "header_custom": "<b:if cond='data:blog.url == data:blog.homepageUrl'>\n<meta content='https://osborn988.github.io/saleshondapasuruan/assets/images/whatsapp-image-2020-09-20-at-19.09.30-774x1032.jpg' property='og:image'/>\n</b:if>",
+        "footer_custom": "<link itemprop=\"thumbnailUrl\" href=\"https://osborn988.github.io/saleshondapasuruan/assets/images/whatsapp-image-2020-09-20-at-19.09.30-774x1032.jpg\"> <span itemprop=\"thumbnail\" itemscope=\"\" itemtype=\"http://schema.org/ImageObject\"> <link itemprop=\"url\" href=\"https://osborn988.github.io/saleshondapasuruan/assets/images/whatsapp-image-2020-09-20-at-19.09.30-774x1032.jpg\"> </span>",
         "html_before": "",
         "meta_image": "@PROJECT_PATH@/assets/images/whatsapp-image-2020-09-20-at-19.09.30-774x1032.jpg"
       },
