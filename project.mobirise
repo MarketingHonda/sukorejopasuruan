@@ -69,7 +69,7 @@
         "main": true,
         "title": "Marketing Honda Sukorejo Pasuruan",
         "meta_descr": "Marketing Sales Honda Sukorejo Pasuruan",
-        "header_custom": "<script src=\"https://apps.elfsight.com/p/platform.js\" defer></script>\n<div class=\"elfsight-app-72537e35-09f0-4a70-b8fb-0b9767fb991d\"></div>\n<b:if cond='data:blog.url == data:blog.homepageUrl'>\n<meta content='https://marketinghonda.github.io/sukorejopasuruan/assets/images/whatsapp-image-2020-09-20-at-19.09.30-774x1032.jpg' property='og:image'/>\n</b:if>",
+        "header_custom": "<script src=\"https://apps.elfsight.com/p/platform.js\" defer></script>\n<div class=\"elfsight-app-72537e35-09f0-4a70-b8fb-0b9767fb991d\"></div>\n<b:if cond='data:https://marketinghonda.github.io/sukorejopasuruan/ == data:https://marketinghonda.github.io/sukorejopasuruan/'>\n<meta content='https://marketinghonda.github.io/sukorejopasuruan/assets/images/whatsapp-image-2020-09-20-at-19.09.30-774x1032.jpg' property='og:image'/>\n</b:if>",
         "footer_custom": "",
         "html_before": "",
         "meta_image": "@PROJECT_PATH@/assets/images/whatsapp-image-2020-09-20-at-19.09.30-774x1032.jpg"
