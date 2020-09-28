@@ -56,7 +56,7 @@
     "gdpr": false,
     "pwa-switcher": false,
     "publishChangesOnly": true,
-    "uniqCompNum": 89,
+    "uniqCompNum": 100,
     "versionPublish": "5.1.9",
     "screenshot": "screenshot.png",
     "global_after_body": "",
@@ -6045,7 +6045,7 @@
           },
           "_name": "extSlider2",
           "_sourceTheme": "carm4",
-          "_customHTML": "<section class=\"extSlider testimonials-slider\" group=\"Additional Blocks\" data-bg-video=\"{{bg.type == 'video'&amp;&amp;bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\" plugins=\"BootstrapCarouselSwipe,mbr-testimonials-slider\" data-interval=\"false\">\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline=\"\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline=\"\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showSubtitle\" checked=\"\">\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n        <input type=\"range\" inline=\"\" title=\"Items\" name=\"slidesCount\" min=\"1\" max=\"10\" step=\"1\" value=\"3\">\n        <input type=\"checkbox\" title=\"Autoplay\" name=\"showAutoplay\" checked=\"\">\n        <input type=\"range\" inline=\"\" title=\"Autoplay Interval (ms)\" name=\"interval\" min=\"1000\" max=\"8000\" step=\"1000\" value=\"5000\" condition=\"showAutoplay\">\n        <input type=\"color\" title=\"Bullets Color\" name=\"bulletsColor\" value=\"#cccccc\" selected=\"\">\n        <fieldset type=\"background\" name=\"bg\" parallax=\"\">\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/background3.jpg\">\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected=\"\">\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=l8UXhtqV6hU\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Gradient Background\" name=\"gradientBg\" condition=\"bg.type=='color'\">\n        <input type=\"color\" title=\"Color 2\" name=\"color2\" value=\"#cccccc\" condition=\"gradientBg &amp;&amp;bg.type=='color'\">\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked=\"\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay&amp;&amp;bg.type !== 'color'\">\n        <input type=\"range\" inline=\"\" title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay&amp;&amp;bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay&amp;&amp;bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div class=\"main container\">\n        <h2 class=\"mbr-section-title pb-3 mbr-fonts-style mbr-bold align-left\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\">OUR HISTORY\n        </h2>\n        <div class=\"row\">\n            <div class=\"first-col col-md-6\">\n                <h3 class=\"mbr-section-subtitle  mbr-fonts-style align-left mbr-regular\" mbr-theme-style=\"display-7\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle, .mbr-section-btn\"><b>Honda Genio</b> <br>19.072.500&nbsp; CBS<br>19.473.500&nbsp; CBS iss</h3>\n                <div class=\"mbr-section-btn align-left py-2\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-buttons=\"\" mbr-theme-style=\"display-4\"><a class=\"btn btn-md btn-info\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\">LEARN MORE</a></div>\n            </div> \n            \n            <div class=\"second-col col-md-6\">\n                <div class=\"carousel slide slides\" role=\"listbox\" data-pause=\"true\" data-keyboard=\"false\" data-ride=\"{{showAutoplay ? 'carousel' : 'false'}}\" data-interval=\"{{showAutoplay ? interval : 'false'}}\">\n                    <ol class=\"carousel-indicators\">\n                        <li data-slide-to=\"0\" class=\"active\"></li>\n                        <li mbr-if=\"slidesCount > 1\" data-slide-to=\"1\"></li>\n                        <li mbr-if=\"slidesCount > 2\" data-slide-to=\"2\"></li>\n                        <li mbr-if=\"slidesCount > 3\" data-slide-to=\"3\"></li>\n                        <li mbr-if=\"slidesCount > 4\" data-slide-to=\"4\"></li>\n                        <li mbr-if=\"slidesCount > 5\" data-slide-to=\"5\"></li>\n                        <li mbr-if=\"slidesCount > 6\" data-slide-to=\"6\"></li>\n                        <li mbr-if=\"slidesCount > 7\" data-slide-to=\"7\"></li>\n                        <li mbr-if=\"slidesCount > 8\" data-slide-to=\"8\"></li>\n                        <li mbr-if=\"slidesCount > 9\" data-slide-to=\"9\"></li>\n                    </ol>\n                    <div class=\"carousel-inner\" mbr-list=\"\" mbr-list-grow=\"slidesCount\" data-visible=\"{{visibleSlides}}\">\n\n                        <div class=\"carousel-item \">\n                            <div class=\"media-container-row\">\n                                <div class=\"col-md-12\">\n                                    <div class=\"wrap-img \">\n                                        <img src=\"@PROJECT_PATH@/assets/images/63168-515x504.png\" class=\"img-responsive clients-img\" alt=\"\" title=\"\">\n                                    </div>\n                                </div>\n                            </div>\n                        </div>\n                    \n                        <div class=\"carousel-item \">\n                            <div class=\"media-container-row\">\n                                <div class=\"col-md-12\">\n                                    <div class=\"wrap-img \">\n                                        <img src=\"@PROJECT_PATH@/assets/images/94896-515x504.png\" class=\"img-responsive clients-img\" alt=\"\" title=\"\">\n                                    </div>\n                                </div>\n                            </div>\n                        </div>\n\n                        <div class=\"carousel-item \">\n                            <div class=\"media-container-row\">\n                                <div class=\"col-md-12\">\n                                    <div class=\"wrap-img \">\n                                        <img src=\"@PROJECT_PATH@/assets/images/96447-515x504.png\" class=\"img-responsive clients-img\" alt=\"\" title=\"\">\n                                    </div>\n                                </div>\n                            </div>\n                        </div>\n                    </div>   \n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"extSlider testimonials-slider\" group=\"Additional Blocks\" data-bg-video=\"{{bg.type == 'video'&&bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\" plugins=\"BootstrapCarouselSwipe,mbr-testimonials-slider\" data-interval=\"false\">\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n        <input type=\"range\" inline title=\"Items\" name=\"slidesCount\" min=\"1\" max=\"10\" step=\"1\" value=\"3\">\n        <input type=\"checkbox\" title=\"Autoplay\" name=\"showAutoplay\" checked>\n        <input type=\"range\" inline title=\"Autoplay Interval (ms)\" name=\"interval\" min=\"1000\" max=\"8000\" step=\"1000\" value=\"5000\" condition=\"showAutoplay\">\n        <input type=\"color\" title=\"Bullets Color\" name=\"bulletsColor\" value=\"#cccccc\" selected>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/background3.jpg\">\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=l8UXhtqV6hU\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Gradient Background\" name=\"gradientBg\" condition=\"bg.type=='color'\">\n        <input type=\"color\" title=\"Color 2\" name=\"color2\" value=\"#cccccc\" condition=\"gradientBg &&bg.type=='color'\">\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay&&bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay&&bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay&&bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div class=\"main container\">\n        <h2 class=\"mbr-section-title pb-3 mbr-fonts-style mbr-bold align-left\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\">OUR HISTORY\n        </h2>\n        <div class=\"row\">\n            <div class=\"first-col col-md-6\">\n                <h3 class=\"mbr-section-subtitle  mbr-fonts-style align-left mbr-regular\" mbr-theme-style=\"display-7\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle, .mbr-section-btn\"><b>Honda New Vario 125</b><br>21.582.500&nbsp; CBS<br>22.453.500&nbsp; CBS iss</h3>\n                <div class=\"mbr-section-btn align-left py-2\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-buttons mbr-theme-style=\"display-4\"><a class=\"btn btn-md btn-info\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\">LEARN MORE</a></div>\n            </div> \n            \n            <div class=\"second-col col-md-6\">\n                <div class=\"carousel slide slides\" role=\"listbox\" data-pause=\"true\" data-keyboard=\"false\" data-ride=\"{{showAutoplay ? 'carousel' : 'false'}}\" data-interval=\"{{showAutoplay ? interval : 'false'}}\">\n                    <ol class=\"carousel-indicators\">\n                        <li data-slide-to=\"0\" class=\"active\"></li>\n                        <li mbr-if=\"slidesCount > 1\" data-slide-to=\"1\"></li>\n                        <li mbr-if=\"slidesCount > 2\" data-slide-to=\"2\"></li>\n                        <li mbr-if=\"slidesCount > 3\" data-slide-to=\"3\"></li>\n                        <li mbr-if=\"slidesCount > 4\" data-slide-to=\"4\"></li>\n                        <li mbr-if=\"slidesCount > 5\" data-slide-to=\"5\"></li>\n                        <li mbr-if=\"slidesCount > 6\" data-slide-to=\"6\"></li>\n                        <li mbr-if=\"slidesCount > 7\" data-slide-to=\"7\"></li>\n                        <li mbr-if=\"slidesCount > 8\" data-slide-to=\"8\"></li>\n                        <li mbr-if=\"slidesCount > 9\" data-slide-to=\"9\"></li>\n                    </ol>\n                    <div class=\"carousel-inner\" mbr-list mbr-list-grow=\"slidesCount\" data-visible=\"{{visibleSlides}}\">\n\n                        <div class=\"carousel-item \">\n                            <div class=\"media-container-row\">\n                                <div class=\"col-md-12\">\n                                    <div class=\"wrap-img \">\n                                        <img src=\"@PROJECT_PATH@/assets/images/25087-510x499.png\" class=\"img-responsive clients-img\" alt title>\n                                    </div>\n                                </div>\n                            </div>\n                        </div>\n                    \n                        <div class=\"carousel-item \">\n                            <div class=\"media-container-row\">\n                                <div class=\"col-md-12\">\n                                    <div class=\"wrap-img \">\n                                        <img src=\"@PROJECT_PATH@/assets/images/52420-510x499.png\" class=\"img-responsive clients-img\" alt title>\n                                    </div>\n                                </div>\n                            </div>\n                        </div>\n\n                        <div class=\"carousel-item \">\n                            <div class=\"media-container-row\">\n                                <div class=\"col-md-12\">\n                                    <div class=\"wrap-img \">\n                                        <img src=\"@PROJECT_PATH@/assets/images/34741-510x499.png\" class=\"img-responsive clients-img\" alt title>\n                                    </div>\n                                </div>\n                            </div>\n                        </div>\n                    </div>   \n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
           "_anchor": "extSlider2-15",
           "_isUserblock": true,
           "_cid": "sbAOhIarHB",
@@ -6137,10 +6137,1022 @@
           },
           "_name": "extSlider2",
           "_sourceTheme": "carm4",
-          "_customHTML": "<section class=\"extSlider testimonials-slider\" group=\"Additional Blocks\" data-bg-video=\"{{bg.type == 'video'&amp;&amp;bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\" plugins=\"BootstrapCarouselSwipe,mbr-testimonials-slider\" data-interval=\"false\">\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline=\"\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline=\"\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showSubtitle\" checked=\"\">\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n        <input type=\"range\" inline=\"\" title=\"Items\" name=\"slidesCount\" min=\"1\" max=\"10\" step=\"1\" value=\"3\">\n        <input type=\"checkbox\" title=\"Autoplay\" name=\"showAutoplay\" checked=\"\">\n        <input type=\"range\" inline=\"\" title=\"Autoplay Interval (ms)\" name=\"interval\" min=\"1000\" max=\"8000\" step=\"1000\" value=\"5000\" condition=\"showAutoplay\">\n        <input type=\"color\" title=\"Bullets Color\" name=\"bulletsColor\" value=\"#cccccc\" selected=\"\">\n        <fieldset type=\"background\" name=\"bg\" parallax=\"\">\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/background3.jpg\">\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected=\"\">\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=l8UXhtqV6hU\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Gradient Background\" name=\"gradientBg\" condition=\"bg.type=='color'\">\n        <input type=\"color\" title=\"Color 2\" name=\"color2\" value=\"#cccccc\" condition=\"gradientBg &amp;&amp;bg.type=='color'\">\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked=\"\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay&amp;&amp;bg.type !== 'color'\">\n        <input type=\"range\" inline=\"\" title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay&amp;&amp;bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay&amp;&amp;bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div class=\"main container\">\n        <h2 class=\"mbr-section-title pb-3 mbr-fonts-style mbr-bold align-left\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\">OUR HISTORY\n        </h2>\n        <div class=\"row\">\n            <div class=\"first-col col-md-6\">\n                <h3 class=\"mbr-section-subtitle  mbr-fonts-style align-left mbr-regular\" mbr-theme-style=\"display-7\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle, .mbr-section-btn\"><b>Honda Genio</b> <br>19.072.500&nbsp; CBS<br>19.473.500&nbsp; CBS iss</h3>\n                <div class=\"mbr-section-btn align-left py-2\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-buttons=\"\" mbr-theme-style=\"display-4\"><a class=\"btn btn-md btn-info\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\">LEARN MORE</a></div>\n            </div> \n            \n            <div class=\"second-col col-md-6\">\n                <div class=\"carousel slide slides\" role=\"listbox\" data-pause=\"true\" data-keyboard=\"false\" data-ride=\"{{showAutoplay ? 'carousel' : 'false'}}\" data-interval=\"{{showAutoplay ? interval : 'false'}}\">\n                    <ol class=\"carousel-indicators\">\n                        <li data-slide-to=\"0\" class=\"active\"></li>\n                        <li mbr-if=\"slidesCount > 1\" data-slide-to=\"1\"></li>\n                        <li mbr-if=\"slidesCount > 2\" data-slide-to=\"2\"></li>\n                        <li mbr-if=\"slidesCount > 3\" data-slide-to=\"3\"></li>\n                        <li mbr-if=\"slidesCount > 4\" data-slide-to=\"4\"></li>\n                        <li mbr-if=\"slidesCount > 5\" data-slide-to=\"5\"></li>\n                        <li mbr-if=\"slidesCount > 6\" data-slide-to=\"6\"></li>\n                        <li mbr-if=\"slidesCount > 7\" data-slide-to=\"7\"></li>\n                        <li mbr-if=\"slidesCount > 8\" data-slide-to=\"8\"></li>\n                        <li mbr-if=\"slidesCount > 9\" data-slide-to=\"9\"></li>\n                    </ol>\n                    <div class=\"carousel-inner\" mbr-list=\"\" mbr-list-grow=\"slidesCount\" data-visible=\"{{visibleSlides}}\">\n\n                        <div class=\"carousel-item \">\n                            <div class=\"media-container-row\">\n                                <div class=\"col-md-12\">\n                                    <div class=\"wrap-img \">\n                                        <img src=\"@PROJECT_PATH@/assets/images/63168-515x504.png\" class=\"img-responsive clients-img\" alt=\"\" title=\"\">\n                                    </div>\n                                </div>\n                            </div>\n                        </div>\n                    \n                        <div class=\"carousel-item \">\n                            <div class=\"media-container-row\">\n                                <div class=\"col-md-12\">\n                                    <div class=\"wrap-img \">\n                                        <img src=\"@PROJECT_PATH@/assets/images/94896-515x504.png\" class=\"img-responsive clients-img\" alt=\"\" title=\"\">\n                                    </div>\n                                </div>\n                            </div>\n                        </div>\n\n                        <div class=\"carousel-item \">\n                            <div class=\"media-container-row\">\n                                <div class=\"col-md-12\">\n                                    <div class=\"wrap-img \">\n                                        <img src=\"@PROJECT_PATH@/assets/images/96447-515x504.png\" class=\"img-responsive clients-img\" alt=\"\" title=\"\">\n                                    </div>\n                                </div>\n                            </div>\n                        </div>\n                    </div>   \n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"extSlider testimonials-slider\" group=\"Additional Blocks\" data-bg-video=\"{{bg.type == 'video'&&bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\" plugins=\"BootstrapCarouselSwipe,mbr-testimonials-slider\" data-interval=\"false\">\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n        <input type=\"range\" inline title=\"Items\" name=\"slidesCount\" min=\"1\" max=\"10\" step=\"1\" value=\"3\">\n        <input type=\"checkbox\" title=\"Autoplay\" name=\"showAutoplay\" checked>\n        <input type=\"range\" inline title=\"Autoplay Interval (ms)\" name=\"interval\" min=\"1000\" max=\"8000\" step=\"1000\" value=\"5000\" condition=\"showAutoplay\">\n        <input type=\"color\" title=\"Bullets Color\" name=\"bulletsColor\" value=\"#cccccc\" selected>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/background3.jpg\">\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=l8UXhtqV6hU\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Gradient Background\" name=\"gradientBg\" condition=\"bg.type=='color'\">\n        <input type=\"color\" title=\"Color 2\" name=\"color2\" value=\"#cccccc\" condition=\"gradientBg &&bg.type=='color'\">\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay&&bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay&&bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay&&bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div class=\"main container\">\n        <h2 class=\"mbr-section-title pb-3 mbr-fonts-style mbr-bold align-left\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\">OUR HISTORY\n        </h2>\n        <div class=\"row\">\n            <div class=\"first-col col-md-6\">\n                <h3 class=\"mbr-section-subtitle  mbr-fonts-style align-left mbr-regular\" mbr-theme-style=\"display-7\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle, .mbr-section-btn\"><b>Honda ADV 150</b><br>35.324.500&nbsp; CBS<br>38.294.500&nbsp; ABS</h3>\n                <div class=\"mbr-section-btn align-left py-2\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-buttons mbr-theme-style=\"display-4\"><a class=\"btn btn-md btn-info\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\">LEARN MORE</a></div>\n            </div> \n            \n            <div class=\"second-col col-md-6\">\n                <div class=\"carousel slide slides\" role=\"listbox\" data-pause=\"true\" data-keyboard=\"false\" data-ride=\"{{showAutoplay ? 'carousel' : 'false'}}\" data-interval=\"{{showAutoplay ? interval : 'false'}}\">\n                    <ol class=\"carousel-indicators\">\n                        <li data-slide-to=\"0\" class=\"active\"></li>\n                        <li mbr-if=\"slidesCount > 1\" data-slide-to=\"1\"></li>\n                        <li mbr-if=\"slidesCount > 2\" data-slide-to=\"2\"></li>\n                        <li mbr-if=\"slidesCount > 3\" data-slide-to=\"3\"></li>\n                        <li mbr-if=\"slidesCount > 4\" data-slide-to=\"4\"></li>\n                        <li mbr-if=\"slidesCount > 5\" data-slide-to=\"5\"></li>\n                        <li mbr-if=\"slidesCount > 6\" data-slide-to=\"6\"></li>\n                        <li mbr-if=\"slidesCount > 7\" data-slide-to=\"7\"></li>\n                        <li mbr-if=\"slidesCount > 8\" data-slide-to=\"8\"></li>\n                        <li mbr-if=\"slidesCount > 9\" data-slide-to=\"9\"></li>\n                    </ol>\n                    <div class=\"carousel-inner\" mbr-list mbr-list-grow=\"slidesCount\" data-visible=\"{{visibleSlides}}\">\n\n                        <div class=\"carousel-item \">\n                            <div class=\"media-container-row\">\n                                <div class=\"col-md-12\">\n                                    <div class=\"wrap-img \">\n                                        <img src=\"@PROJECT_PATH@/assets/images/18740-510x499.png\" class=\"img-responsive clients-img\" alt title>\n                                    </div>\n                                </div>\n                            </div>\n                        </div>\n                    \n                        <div class=\"carousel-item \">\n                            <div class=\"media-container-row\">\n                                <div class=\"col-md-12\">\n                                    <div class=\"wrap-img \">\n                                        <img src=\"@PROJECT_PATH@/assets/images/18222-510x499.png\" class=\"img-responsive clients-img\" alt title>\n                                    </div>\n                                </div>\n                            </div>\n                        </div>\n\n                        <div class=\"carousel-item \">\n                            <div class=\"media-container-row\">\n                                <div class=\"col-md-12\">\n                                    <div class=\"wrap-img \">\n                                        <img src=\"@PROJECT_PATH@/assets/images/30509-510x499.png\" class=\"img-responsive clients-img\" alt title>\n                                    </div>\n                                </div>\n                            </div>\n                        </div>\n                    </div>   \n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
           "_anchor": "extSlider2-16",
           "_isUserblock": true,
           "_cid": "sbAOiSjYwX",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": "mobirise4-blocks/components",
+          "_isSecondary": true,
+          "typeCompatible": "type",
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value",
+              "& when (@gradientBg)": {
+                "background": "linear-gradient(@bg-value, @color2)"
+              }
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            ".mbr-section-title": {
+              "letter-spacing": "0.1em",
+              "color": "#232323",
+              "margin-bottom": "2rem"
+            },
+            ".mbr-section-subtitle": {
+              "color": "#232323",
+              "margin-bottom": "2rem",
+              "letter-spacing": "0.03em"
+            },
+            ".btn": {
+              "margin": "0px !important"
+            },
+            ".second-col": {
+              "display": "flex",
+              "-webkit-align-items": "center",
+              "align-items": "center",
+              "-webkit-justify-content": "center",
+              "justify-content": "center"
+            },
+            ".carousel-item": {
+              "-webkit-justify-content": "center",
+              "justify-content": "center",
+              ".media-container-row": {
+                "-webkit-flex-grow": "1",
+                "flex-grow": "1"
+              },
+              ".wrap-img": {
+                "text-align": "center",
+                "img": {
+                  "max-height": "250px",
+                  "width": "auto",
+                  "max-width": "100%"
+                }
+              }
+            },
+            ".carousel": {
+              "display": "flex",
+              "-webkit-flex-direction": "column-reverse",
+              "flex-direction": "column-reverse",
+              "width": "100%"
+            },
+            ".carousel-indicators": {
+              "display": "block",
+              "position": "relative",
+              "margin-top": "2rem",
+              "text-align": "center",
+              "li": {
+                "width": "7px",
+                "height": "7px",
+                "border-radius": "50%",
+                "background-color": "@bulletsColor",
+                "display": "inline-block",
+                "border": "4px solid @bulletsColor",
+                "&.active": {
+                  "border-color": "softlight(@bulletsColor, #000000)"
+                }
+              }
+            },
+            "@media (max-width: 768px)": {
+              ".second-col": {
+                "padding-top": "2rem"
+              }
+            }
+          },
+          "_name": "extSlider2",
+          "_sourceTheme": "carm4",
+          "_customHTML": "<section class=\"extSlider testimonials-slider\" group=\"Additional Blocks\" data-bg-video=\"{{bg.type == 'video'&&bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\" plugins=\"BootstrapCarouselSwipe,mbr-testimonials-slider\" data-interval=\"false\">\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n        <input type=\"range\" inline title=\"Items\" name=\"slidesCount\" min=\"1\" max=\"10\" step=\"1\" value=\"3\">\n        <input type=\"checkbox\" title=\"Autoplay\" name=\"showAutoplay\" checked>\n        <input type=\"range\" inline title=\"Autoplay Interval (ms)\" name=\"interval\" min=\"1000\" max=\"8000\" step=\"1000\" value=\"5000\" condition=\"showAutoplay\">\n        <input type=\"color\" title=\"Bullets Color\" name=\"bulletsColor\" value=\"#cccccc\" selected>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/background3.jpg\">\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=l8UXhtqV6hU\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Gradient Background\" name=\"gradientBg\" condition=\"bg.type=='color'\">\n        <input type=\"color\" title=\"Color 2\" name=\"color2\" value=\"#cccccc\" condition=\"gradientBg &&bg.type=='color'\">\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay&&bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay&&bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay&&bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div class=\"main container\">\n        <h2 class=\"mbr-section-title pb-3 mbr-fonts-style mbr-bold align-left\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\">OUR HISTORY\n        </h2>\n        <div class=\"row\">\n            <div class=\"first-col col-md-6\">\n                <h3 class=\"mbr-section-subtitle  mbr-fonts-style align-left mbr-regular\" mbr-theme-style=\"display-7\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle, .mbr-section-btn\"><b>Honda Scoopy</b> <br>20.558.500<br></h3>\n                <div class=\"mbr-section-btn align-left py-2\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-buttons mbr-theme-style=\"display-4\"><a class=\"btn btn-md btn-info\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\">LEARN MORE</a></div>\n            </div> \n            \n            <div class=\"second-col col-md-6\">\n                <div class=\"carousel slide slides\" role=\"listbox\" data-pause=\"true\" data-keyboard=\"false\" data-ride=\"{{showAutoplay ? 'carousel' : 'false'}}\" data-interval=\"{{showAutoplay ? interval : 'false'}}\">\n                    <ol class=\"carousel-indicators\">\n                        <li data-slide-to=\"0\" class=\"active\"></li>\n                        <li mbr-if=\"slidesCount > 1\" data-slide-to=\"1\"></li>\n                        <li mbr-if=\"slidesCount > 2\" data-slide-to=\"2\"></li>\n                        <li mbr-if=\"slidesCount > 3\" data-slide-to=\"3\"></li>\n                        <li mbr-if=\"slidesCount > 4\" data-slide-to=\"4\"></li>\n                        <li mbr-if=\"slidesCount > 5\" data-slide-to=\"5\"></li>\n                        <li mbr-if=\"slidesCount > 6\" data-slide-to=\"6\"></li>\n                        <li mbr-if=\"slidesCount > 7\" data-slide-to=\"7\"></li>\n                        <li mbr-if=\"slidesCount > 8\" data-slide-to=\"8\"></li>\n                        <li mbr-if=\"slidesCount > 9\" data-slide-to=\"9\"></li>\n                    </ol>\n                    <div class=\"carousel-inner\" mbr-list mbr-list-grow=\"slidesCount\" data-visible=\"{{visibleSlides}}\">\n\n                        <div class=\"carousel-item \">\n                            <div class=\"media-container-row\">\n                                <div class=\"col-md-12\">\n                                    <div class=\"wrap-img \">\n                                        <img src=\"@PROJECT_PATH@/assets/images/81466-510x499.png\" class=\"img-responsive clients-img\" alt title>\n                                    </div>\n                                </div>\n                            </div>\n                        </div>\n                    \n                        <div class=\"carousel-item \">\n                            <div class=\"media-container-row\">\n                                <div class=\"col-md-12\">\n                                    <div class=\"wrap-img \">\n                                        <img src=\"@PROJECT_PATH@/assets/images/26379-510x499.png\" class=\"img-responsive clients-img\" alt title>\n                                    </div>\n                                </div>\n                            </div>\n                        </div>\n\n                        <div class=\"carousel-item \">\n                            <div class=\"media-container-row\">\n                                <div class=\"col-md-12\">\n                                    <div class=\"wrap-img \">\n                                        <img src=\"@PROJECT_PATH@/assets/images/95466-510x499.png\" class=\"img-responsive clients-img\" alt title>\n                                    </div>\n                                </div>\n                            </div>\n                        </div>\n                    </div>   \n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_anchor": "extSlider2-2h",
+          "_isUserblock": true,
+          "_cid": "sbSENJzgAv",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": "mobirise4-blocks/components",
+          "_isSecondary": true,
+          "typeCompatible": "type",
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value",
+              "& when (@gradientBg)": {
+                "background": "linear-gradient(@bg-value, @color2)"
+              }
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            ".mbr-section-title": {
+              "letter-spacing": "0.1em",
+              "color": "#232323",
+              "margin-bottom": "2rem"
+            },
+            ".mbr-section-subtitle": {
+              "color": "#232323",
+              "margin-bottom": "2rem",
+              "letter-spacing": "0.03em"
+            },
+            ".btn": {
+              "margin": "0px !important"
+            },
+            ".second-col": {
+              "display": "flex",
+              "-webkit-align-items": "center",
+              "align-items": "center",
+              "-webkit-justify-content": "center",
+              "justify-content": "center"
+            },
+            ".carousel-item": {
+              "-webkit-justify-content": "center",
+              "justify-content": "center",
+              ".media-container-row": {
+                "-webkit-flex-grow": "1",
+                "flex-grow": "1"
+              },
+              ".wrap-img": {
+                "text-align": "center",
+                "img": {
+                  "max-height": "250px",
+                  "width": "auto",
+                  "max-width": "100%"
+                }
+              }
+            },
+            ".carousel": {
+              "display": "flex",
+              "-webkit-flex-direction": "column-reverse",
+              "flex-direction": "column-reverse",
+              "width": "100%"
+            },
+            ".carousel-indicators": {
+              "display": "block",
+              "position": "relative",
+              "margin-top": "2rem",
+              "text-align": "center",
+              "li": {
+                "width": "7px",
+                "height": "7px",
+                "border-radius": "50%",
+                "background-color": "@bulletsColor",
+                "display": "inline-block",
+                "border": "4px solid @bulletsColor",
+                "&.active": {
+                  "border-color": "softlight(@bulletsColor, #000000)"
+                }
+              }
+            },
+            "@media (max-width: 768px)": {
+              ".second-col": {
+                "padding-top": "2rem"
+              }
+            }
+          },
+          "_name": "extSlider2",
+          "_sourceTheme": "carm4",
+          "_customHTML": "<section class=\"extSlider testimonials-slider\" group=\"Additional Blocks\" data-bg-video=\"{{bg.type == 'video'&&bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\" plugins=\"BootstrapCarouselSwipe,mbr-testimonials-slider\" data-interval=\"false\">\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n        <input type=\"range\" inline title=\"Items\" name=\"slidesCount\" min=\"1\" max=\"10\" step=\"1\" value=\"3\">\n        <input type=\"checkbox\" title=\"Autoplay\" name=\"showAutoplay\" checked>\n        <input type=\"range\" inline title=\"Autoplay Interval (ms)\" name=\"interval\" min=\"1000\" max=\"8000\" step=\"1000\" value=\"5000\" condition=\"showAutoplay\">\n        <input type=\"color\" title=\"Bullets Color\" name=\"bulletsColor\" value=\"#cccccc\" selected>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/background3.jpg\">\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=l8UXhtqV6hU\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Gradient Background\" name=\"gradientBg\" condition=\"bg.type=='color'\">\n        <input type=\"color\" title=\"Color 2\" name=\"color2\" value=\"#cccccc\" condition=\"gradientBg &&bg.type=='color'\">\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay&&bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay&&bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay&&bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div class=\"main container\">\n        <h2 class=\"mbr-section-title pb-3 mbr-fonts-style mbr-bold align-left\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\">OUR HISTORY\n        </h2>\n        <div class=\"row\">\n            <div class=\"first-col col-md-6\">\n                <h3 class=\"mbr-section-subtitle  mbr-fonts-style align-left mbr-regular\" mbr-theme-style=\"display-7\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle, .mbr-section-btn\"><b>Honda New Vario 150</b> <br>25.047.500&nbsp;&nbsp;<br>25.197.500&nbsp; Sporty</h3>\n                <div class=\"mbr-section-btn align-left py-2\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-buttons mbr-theme-style=\"display-4\"><a class=\"btn btn-md btn-info\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\">LEARN MORE</a></div>\n            </div> \n            \n            <div class=\"second-col col-md-6\">\n                <div class=\"carousel slide slides\" role=\"listbox\" data-pause=\"true\" data-keyboard=\"false\" data-ride=\"{{showAutoplay ? 'carousel' : 'false'}}\" data-interval=\"{{showAutoplay ? interval : 'false'}}\">\n                    <ol class=\"carousel-indicators\">\n                        <li data-slide-to=\"0\" class=\"active\"></li>\n                        <li mbr-if=\"slidesCount > 1\" data-slide-to=\"1\"></li>\n                        <li mbr-if=\"slidesCount > 2\" data-slide-to=\"2\"></li>\n                        <li mbr-if=\"slidesCount > 3\" data-slide-to=\"3\"></li>\n                        <li mbr-if=\"slidesCount > 4\" data-slide-to=\"4\"></li>\n                        <li mbr-if=\"slidesCount > 5\" data-slide-to=\"5\"></li>\n                        <li mbr-if=\"slidesCount > 6\" data-slide-to=\"6\"></li>\n                        <li mbr-if=\"slidesCount > 7\" data-slide-to=\"7\"></li>\n                        <li mbr-if=\"slidesCount > 8\" data-slide-to=\"8\"></li>\n                        <li mbr-if=\"slidesCount > 9\" data-slide-to=\"9\"></li>\n                    </ol>\n                    <div class=\"carousel-inner\" mbr-list mbr-list-grow=\"slidesCount\" data-visible=\"{{visibleSlides}}\">\n\n                        <div class=\"carousel-item \">\n                            <div class=\"media-container-row\">\n                                <div class=\"col-md-12\">\n                                    <div class=\"wrap-img \">\n                                        <img src=\"@PROJECT_PATH@/assets/images/84490-510x499.png\" class=\"img-responsive clients-img\" alt title>\n                                    </div>\n                                </div>\n                            </div>\n                        </div>\n                    \n                        <div class=\"carousel-item \">\n                            <div class=\"media-container-row\">\n                                <div class=\"col-md-12\">\n                                    <div class=\"wrap-img \">\n                                        <img src=\"@PROJECT_PATH@/assets/images/27255-510x499.png\" class=\"img-responsive clients-img\" alt title>\n                                    </div>\n                                </div>\n                            </div>\n                        </div>\n\n                        <div class=\"carousel-item \">\n                            <div class=\"media-container-row\">\n                                <div class=\"col-md-12\">\n                                    <div class=\"wrap-img \">\n                                        <img src=\"@PROJECT_PATH@/assets/images/79159-510x499.png\" class=\"img-responsive clients-img\" alt title>\n                                    </div>\n                                </div>\n                            </div>\n                        </div>\n                    </div>   \n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_anchor": "extSlider2-2j",
+          "_isUserblock": true,
+          "_cid": "sbSEOZGj0E",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": "mobirise4-blocks/components",
+          "_isSecondary": true,
+          "typeCompatible": "type",
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value",
+              "& when (@gradientBg)": {
+                "background": "linear-gradient(@bg-value, @color2)"
+              }
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            ".mbr-section-title": {
+              "letter-spacing": "0.1em",
+              "color": "#232323",
+              "margin-bottom": "2rem"
+            },
+            ".mbr-section-subtitle": {
+              "color": "#232323",
+              "margin-bottom": "2rem",
+              "letter-spacing": "0.03em"
+            },
+            ".btn": {
+              "margin": "0px !important"
+            },
+            ".second-col": {
+              "display": "flex",
+              "-webkit-align-items": "center",
+              "align-items": "center",
+              "-webkit-justify-content": "center",
+              "justify-content": "center"
+            },
+            ".carousel-item": {
+              "-webkit-justify-content": "center",
+              "justify-content": "center",
+              ".media-container-row": {
+                "-webkit-flex-grow": "1",
+                "flex-grow": "1"
+              },
+              ".wrap-img": {
+                "text-align": "center",
+                "img": {
+                  "max-height": "250px",
+                  "width": "auto",
+                  "max-width": "100%"
+                }
+              }
+            },
+            ".carousel": {
+              "display": "flex",
+              "-webkit-flex-direction": "column-reverse",
+              "flex-direction": "column-reverse",
+              "width": "100%"
+            },
+            ".carousel-indicators": {
+              "display": "block",
+              "position": "relative",
+              "margin-top": "2rem",
+              "text-align": "center",
+              "li": {
+                "width": "7px",
+                "height": "7px",
+                "border-radius": "50%",
+                "background-color": "@bulletsColor",
+                "display": "inline-block",
+                "border": "4px solid @bulletsColor",
+                "&.active": {
+                  "border-color": "softlight(@bulletsColor, #000000)"
+                }
+              }
+            },
+            "@media (max-width: 768px)": {
+              ".second-col": {
+                "padding-top": "2rem"
+              }
+            }
+          },
+          "_name": "extSlider2",
+          "_sourceTheme": "carm4",
+          "_customHTML": "<section class=\"extSlider testimonials-slider\" group=\"Additional Blocks\" data-bg-video=\"{{bg.type == 'video'&&bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\" plugins=\"BootstrapCarouselSwipe,mbr-testimonials-slider\" data-interval=\"false\">\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n        <input type=\"range\" inline title=\"Items\" name=\"slidesCount\" min=\"1\" max=\"10\" step=\"1\" value=\"3\">\n        <input type=\"checkbox\" title=\"Autoplay\" name=\"showAutoplay\" checked>\n        <input type=\"range\" inline title=\"Autoplay Interval (ms)\" name=\"interval\" min=\"1000\" max=\"8000\" step=\"1000\" value=\"5000\" condition=\"showAutoplay\">\n        <input type=\"color\" title=\"Bullets Color\" name=\"bulletsColor\" value=\"#cccccc\" selected>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/background3.jpg\">\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=l8UXhtqV6hU\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Gradient Background\" name=\"gradientBg\" condition=\"bg.type=='color'\">\n        <input type=\"color\" title=\"Color 2\" name=\"color2\" value=\"#cccccc\" condition=\"gradientBg &&bg.type=='color'\">\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay&&bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay&&bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay&&bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div class=\"main container\">\n        <h2 class=\"mbr-section-title pb-3 mbr-fonts-style mbr-bold align-left\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\">OUR HISTORY\n        </h2>\n        <div class=\"row\">\n            <div class=\"first-col col-md-6\">\n                <h3 class=\"mbr-section-subtitle  mbr-fonts-style align-left mbr-regular\" mbr-theme-style=\"display-7\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle, .mbr-section-btn\"><b>Honda PCX 150</b><br>30.564.500&nbsp; CBS<br>33.534.500&nbsp; ABS</h3>\n                <div class=\"mbr-section-btn align-left py-2\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-buttons mbr-theme-style=\"display-4\"><a class=\"btn btn-md btn-info\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\">LEARN MORE</a></div>\n            </div> \n            \n            <div class=\"second-col col-md-6\">\n                <div class=\"carousel slide slides\" role=\"listbox\" data-pause=\"true\" data-keyboard=\"false\" data-ride=\"{{showAutoplay ? 'carousel' : 'false'}}\" data-interval=\"{{showAutoplay ? interval : 'false'}}\">\n                    <ol class=\"carousel-indicators\">\n                        <li data-slide-to=\"0\" class=\"active\"></li>\n                        <li mbr-if=\"slidesCount > 1\" data-slide-to=\"1\"></li>\n                        <li mbr-if=\"slidesCount > 2\" data-slide-to=\"2\"></li>\n                        <li mbr-if=\"slidesCount > 3\" data-slide-to=\"3\"></li>\n                        <li mbr-if=\"slidesCount > 4\" data-slide-to=\"4\"></li>\n                        <li mbr-if=\"slidesCount > 5\" data-slide-to=\"5\"></li>\n                        <li mbr-if=\"slidesCount > 6\" data-slide-to=\"6\"></li>\n                        <li mbr-if=\"slidesCount > 7\" data-slide-to=\"7\"></li>\n                        <li mbr-if=\"slidesCount > 8\" data-slide-to=\"8\"></li>\n                        <li mbr-if=\"slidesCount > 9\" data-slide-to=\"9\"></li>\n                    </ol>\n                    <div class=\"carousel-inner\" mbr-list mbr-list-grow=\"slidesCount\" data-visible=\"{{visibleSlides}}\">\n\n                        <div class=\"carousel-item \">\n                            <div class=\"media-container-row\">\n                                <div class=\"col-md-12\">\n                                    <div class=\"wrap-img \">\n                                        <img src=\"@PROJECT_PATH@/assets/images/91385-510x499.png\" class=\"img-responsive clients-img\" alt title>\n                                    </div>\n                                </div>\n                            </div>\n                        </div>\n                    \n                        <div class=\"carousel-item \">\n                            <div class=\"media-container-row\">\n                                <div class=\"col-md-12\">\n                                    <div class=\"wrap-img \">\n                                        <img src=\"@PROJECT_PATH@/assets/images/41013-510x499.png\" class=\"img-responsive clients-img\" alt title>\n                                    </div>\n                                </div>\n                            </div>\n                        </div>\n\n                        <div class=\"carousel-item \">\n                            <div class=\"media-container-row\">\n                                <div class=\"col-md-12\">\n                                    <div class=\"wrap-img \">\n                                        <img src=\"@PROJECT_PATH@/assets/images/18844-510x499.png\" class=\"img-responsive clients-img\" alt title>\n                                    </div>\n                                </div>\n                            </div>\n                        </div>\n                    </div>   \n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_anchor": "extSlider2-2m",
+          "_isUserblock": true,
+          "_cid": "sbSESVWoAR",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": "mobirise4-blocks/components",
+          "_isSecondary": true,
+          "typeCompatible": "type",
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value",
+              "& when (@gradientBg)": {
+                "background": "linear-gradient(@bg-value, @color2)"
+              }
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            ".mbr-section-title": {
+              "letter-spacing": "0.1em",
+              "color": "#232323",
+              "margin-bottom": "2rem"
+            },
+            ".mbr-section-subtitle": {
+              "color": "#232323",
+              "margin-bottom": "2rem",
+              "letter-spacing": "0.03em"
+            },
+            ".btn": {
+              "margin": "0px !important"
+            },
+            ".second-col": {
+              "display": "flex",
+              "-webkit-align-items": "center",
+              "align-items": "center",
+              "-webkit-justify-content": "center",
+              "justify-content": "center"
+            },
+            ".carousel-item": {
+              "-webkit-justify-content": "center",
+              "justify-content": "center",
+              ".media-container-row": {
+                "-webkit-flex-grow": "1",
+                "flex-grow": "1"
+              },
+              ".wrap-img": {
+                "text-align": "center",
+                "img": {
+                  "max-height": "250px",
+                  "width": "auto",
+                  "max-width": "100%"
+                }
+              }
+            },
+            ".carousel": {
+              "display": "flex",
+              "-webkit-flex-direction": "column-reverse",
+              "flex-direction": "column-reverse",
+              "width": "100%"
+            },
+            ".carousel-indicators": {
+              "display": "block",
+              "position": "relative",
+              "margin-top": "2rem",
+              "text-align": "center",
+              "li": {
+                "width": "7px",
+                "height": "7px",
+                "border-radius": "50%",
+                "background-color": "@bulletsColor",
+                "display": "inline-block",
+                "border": "4px solid @bulletsColor",
+                "&.active": {
+                  "border-color": "softlight(@bulletsColor, #000000)"
+                }
+              }
+            },
+            "@media (max-width: 768px)": {
+              ".second-col": {
+                "padding-top": "2rem"
+              }
+            }
+          },
+          "_name": "extSlider2",
+          "_sourceTheme": "carm4",
+          "_customHTML": "<section class=\"extSlider testimonials-slider\" group=\"Additional Blocks\" data-bg-video=\"{{bg.type == 'video'&&bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\" plugins=\"BootstrapCarouselSwipe,mbr-testimonials-slider\" data-interval=\"false\">\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n        <input type=\"range\" inline title=\"Items\" name=\"slidesCount\" min=\"1\" max=\"10\" step=\"1\" value=\"3\">\n        <input type=\"checkbox\" title=\"Autoplay\" name=\"showAutoplay\" checked>\n        <input type=\"range\" inline title=\"Autoplay Interval (ms)\" name=\"interval\" min=\"1000\" max=\"8000\" step=\"1000\" value=\"5000\" condition=\"showAutoplay\">\n        <input type=\"color\" title=\"Bullets Color\" name=\"bulletsColor\" value=\"#cccccc\" selected>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/background3.jpg\">\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=l8UXhtqV6hU\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Gradient Background\" name=\"gradientBg\" condition=\"bg.type=='color'\">\n        <input type=\"color\" title=\"Color 2\" name=\"color2\" value=\"#cccccc\" condition=\"gradientBg &&bg.type=='color'\">\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay&&bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay&&bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay&&bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div class=\"main container\">\n        <h2 class=\"mbr-section-title pb-3 mbr-fonts-style mbr-bold align-left\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\">OUR HISTORY\n        </h2>\n        <div class=\"row\">\n            <div class=\"first-col col-md-6\">\n                <h3 class=\"mbr-section-subtitle  mbr-fonts-style align-left mbr-regular\" mbr-theme-style=\"display-7\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle, .mbr-section-btn\"><b>Honda Revo X</b><br>15.943.500&nbsp; Fit<br>17.633.500&nbsp; X</h3>\n                <div class=\"mbr-section-btn align-left py-2\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-buttons mbr-theme-style=\"display-4\"><a class=\"btn btn-md btn-info\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\">LEARN MORE</a></div>\n            </div> \n            \n            <div class=\"second-col col-md-6\">\n                <div class=\"carousel slide slides\" role=\"listbox\" data-pause=\"true\" data-keyboard=\"false\" data-ride=\"{{showAutoplay ? 'carousel' : 'false'}}\" data-interval=\"{{showAutoplay ? interval : 'false'}}\">\n                    <ol class=\"carousel-indicators\">\n                        <li data-slide-to=\"0\" class=\"active\"></li>\n                        <li mbr-if=\"slidesCount > 1\" data-slide-to=\"1\"></li>\n                        <li mbr-if=\"slidesCount > 2\" data-slide-to=\"2\"></li>\n                        <li mbr-if=\"slidesCount > 3\" data-slide-to=\"3\"></li>\n                        <li mbr-if=\"slidesCount > 4\" data-slide-to=\"4\"></li>\n                        <li mbr-if=\"slidesCount > 5\" data-slide-to=\"5\"></li>\n                        <li mbr-if=\"slidesCount > 6\" data-slide-to=\"6\"></li>\n                        <li mbr-if=\"slidesCount > 7\" data-slide-to=\"7\"></li>\n                        <li mbr-if=\"slidesCount > 8\" data-slide-to=\"8\"></li>\n                        <li mbr-if=\"slidesCount > 9\" data-slide-to=\"9\"></li>\n                    </ol>\n                    <div class=\"carousel-inner\" mbr-list mbr-list-grow=\"slidesCount\" data-visible=\"{{visibleSlides}}\">\n\n                        <div class=\"carousel-item \">\n                            <div class=\"media-container-row\">\n                                <div class=\"col-md-12\">\n                                    <div class=\"wrap-img \">\n                                        <img src=\"@PROJECT_PATH@/assets/images/25211-510x499.png\" class=\"img-responsive clients-img\" alt title>\n                                    </div>\n                                </div>\n                            </div>\n                        </div>\n                    \n                        <div class=\"carousel-item \">\n                            <div class=\"media-container-row\">\n                                <div class=\"col-md-12\">\n                                    <div class=\"wrap-img \">\n                                        <img src=\"@PROJECT_PATH@/assets/images/93999-510x499.png\" class=\"img-responsive clients-img\" alt title>\n                                    </div>\n                                </div>\n                            </div>\n                        </div>\n\n                        <div class=\"carousel-item \">\n                            <div class=\"media-container-row\">\n                                <div class=\"col-md-12\">\n                                    <div class=\"wrap-img \">\n                                        <img src=\"@PROJECT_PATH@/assets/images/17045-510x499.png\" class=\"img-responsive clients-img\" alt title>\n                                    </div>\n                                </div>\n                            </div>\n                        </div>\n                    </div>   \n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_anchor": "extSlider2-2k",
+          "_isUserblock": true,
+          "_cid": "sbSEPvTs0L",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": "mobirise4-blocks/components",
+          "_isSecondary": true,
+          "typeCompatible": "type",
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value",
+              "& when (@gradientBg)": {
+                "background": "linear-gradient(@bg-value, @color2)"
+              }
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            ".mbr-section-title": {
+              "letter-spacing": "0.1em",
+              "color": "#232323",
+              "margin-bottom": "2rem"
+            },
+            ".mbr-section-subtitle": {
+              "color": "#232323",
+              "margin-bottom": "2rem",
+              "letter-spacing": "0.03em"
+            },
+            ".btn": {
+              "margin": "0px !important"
+            },
+            ".second-col": {
+              "display": "flex",
+              "-webkit-align-items": "center",
+              "align-items": "center",
+              "-webkit-justify-content": "center",
+              "justify-content": "center"
+            },
+            ".carousel-item": {
+              "-webkit-justify-content": "center",
+              "justify-content": "center",
+              ".media-container-row": {
+                "-webkit-flex-grow": "1",
+                "flex-grow": "1"
+              },
+              ".wrap-img": {
+                "text-align": "center",
+                "img": {
+                  "max-height": "250px",
+                  "width": "auto",
+                  "max-width": "100%"
+                }
+              }
+            },
+            ".carousel": {
+              "display": "flex",
+              "-webkit-flex-direction": "column-reverse",
+              "flex-direction": "column-reverse",
+              "width": "100%"
+            },
+            ".carousel-indicators": {
+              "display": "block",
+              "position": "relative",
+              "margin-top": "2rem",
+              "text-align": "center",
+              "li": {
+                "width": "7px",
+                "height": "7px",
+                "border-radius": "50%",
+                "background-color": "@bulletsColor",
+                "display": "inline-block",
+                "border": "4px solid @bulletsColor",
+                "&.active": {
+                  "border-color": "softlight(@bulletsColor, #000000)"
+                }
+              }
+            },
+            "@media (max-width: 768px)": {
+              ".second-col": {
+                "padding-top": "2rem"
+              }
+            }
+          },
+          "_name": "extSlider2",
+          "_sourceTheme": "carm4",
+          "_customHTML": "<section class=\"extSlider testimonials-slider\" group=\"Additional Blocks\" data-bg-video=\"{{bg.type == 'video'&&bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\" plugins=\"BootstrapCarouselSwipe,mbr-testimonials-slider\" data-interval=\"false\">\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n        <input type=\"range\" inline title=\"Items\" name=\"slidesCount\" min=\"1\" max=\"10\" step=\"1\" value=\"3\">\n        <input type=\"checkbox\" title=\"Autoplay\" name=\"showAutoplay\" checked>\n        <input type=\"range\" inline title=\"Autoplay Interval (ms)\" name=\"interval\" min=\"1000\" max=\"8000\" step=\"1000\" value=\"5000\" condition=\"showAutoplay\">\n        <input type=\"color\" title=\"Bullets Color\" name=\"bulletsColor\" value=\"#cccccc\" selected>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/background3.jpg\">\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=l8UXhtqV6hU\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Gradient Background\" name=\"gradientBg\" condition=\"bg.type=='color'\">\n        <input type=\"color\" title=\"Color 2\" name=\"color2\" value=\"#cccccc\" condition=\"gradientBg &&bg.type=='color'\">\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay&&bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay&&bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay&&bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div class=\"main container\">\n        <h2 class=\"mbr-section-title pb-3 mbr-fonts-style mbr-bold align-left\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\">OUR HISTORY\n        </h2>\n        <div class=\"row\">\n            <div class=\"first-col col-md-6\">\n                <h3 class=\"mbr-section-subtitle  mbr-fonts-style align-left mbr-regular\" mbr-theme-style=\"display-7\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle, .mbr-section-btn\"><b>Honda Sonic 150R</b><br>23.962.500 R<br>24.362.500 Matte Black</h3>\n                <div class=\"mbr-section-btn align-left py-2\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-buttons mbr-theme-style=\"display-4\"><a class=\"btn btn-md btn-info\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\">LEARN MORE</a></div>\n            </div> \n            \n            <div class=\"second-col col-md-6\">\n                <div class=\"carousel slide slides\" role=\"listbox\" data-pause=\"true\" data-keyboard=\"false\" data-ride=\"{{showAutoplay ? 'carousel' : 'false'}}\" data-interval=\"{{showAutoplay ? interval : 'false'}}\">\n                    <ol class=\"carousel-indicators\">\n                        <li data-slide-to=\"0\" class=\"active\"></li>\n                        <li mbr-if=\"slidesCount > 1\" data-slide-to=\"1\"></li>\n                        <li mbr-if=\"slidesCount > 2\" data-slide-to=\"2\"></li>\n                        <li mbr-if=\"slidesCount > 3\" data-slide-to=\"3\"></li>\n                        <li mbr-if=\"slidesCount > 4\" data-slide-to=\"4\"></li>\n                        <li mbr-if=\"slidesCount > 5\" data-slide-to=\"5\"></li>\n                        <li mbr-if=\"slidesCount > 6\" data-slide-to=\"6\"></li>\n                        <li mbr-if=\"slidesCount > 7\" data-slide-to=\"7\"></li>\n                        <li mbr-if=\"slidesCount > 8\" data-slide-to=\"8\"></li>\n                        <li mbr-if=\"slidesCount > 9\" data-slide-to=\"9\"></li>\n                    </ol>\n                    <div class=\"carousel-inner\" mbr-list mbr-list-grow=\"slidesCount\" data-visible=\"{{visibleSlides}}\">\n\n                        <div class=\"carousel-item \">\n                            <div class=\"media-container-row\">\n                                <div class=\"col-md-12\">\n                                    <div class=\"wrap-img \">\n                                        <img src=\"@PROJECT_PATH@/assets/images/96857-510x499.png\" class=\"img-responsive clients-img\" alt title>\n                                    </div>\n                                </div>\n                            </div>\n                        </div>\n                    \n                        <div class=\"carousel-item \">\n                            <div class=\"media-container-row\">\n                                <div class=\"col-md-12\">\n                                    <div class=\"wrap-img \">\n                                        <img src=\"@PROJECT_PATH@/assets/images/98824-510x499.png\" class=\"img-responsive clients-img\" alt title>\n                                    </div>\n                                </div>\n                            </div>\n                        </div>\n\n                        <div class=\"carousel-item \">\n                            <div class=\"media-container-row\">\n                                <div class=\"col-md-12\">\n                                    <div class=\"wrap-img \">\n                                        <img src=\"@PROJECT_PATH@/assets/images/86151-510x499.png\" class=\"img-responsive clients-img\" alt title>\n                                    </div>\n                                </div>\n                            </div>\n                        </div>\n                    </div>   \n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_anchor": "extSlider2-2l",
+          "_isUserblock": true,
+          "_cid": "sbSEQ9OO2i",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": "mobirise4-blocks/components",
+          "_isSecondary": true,
+          "typeCompatible": "type",
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value",
+              "& when (@gradientBg)": {
+                "background": "linear-gradient(@bg-value, @color2)"
+              }
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            ".mbr-section-title": {
+              "letter-spacing": "0.1em",
+              "color": "#232323",
+              "margin-bottom": "2rem"
+            },
+            ".mbr-section-subtitle": {
+              "color": "#232323",
+              "margin-bottom": "2rem",
+              "letter-spacing": "0.03em"
+            },
+            ".btn": {
+              "margin": "0px !important"
+            },
+            ".second-col": {
+              "display": "flex",
+              "-webkit-align-items": "center",
+              "align-items": "center",
+              "-webkit-justify-content": "center",
+              "justify-content": "center"
+            },
+            ".carousel-item": {
+              "-webkit-justify-content": "center",
+              "justify-content": "center",
+              ".media-container-row": {
+                "-webkit-flex-grow": "1",
+                "flex-grow": "1"
+              },
+              ".wrap-img": {
+                "text-align": "center",
+                "img": {
+                  "max-height": "250px",
+                  "width": "auto",
+                  "max-width": "100%"
+                }
+              }
+            },
+            ".carousel": {
+              "display": "flex",
+              "-webkit-flex-direction": "column-reverse",
+              "flex-direction": "column-reverse",
+              "width": "100%"
+            },
+            ".carousel-indicators": {
+              "display": "block",
+              "position": "relative",
+              "margin-top": "2rem",
+              "text-align": "center",
+              "li": {
+                "width": "7px",
+                "height": "7px",
+                "border-radius": "50%",
+                "background-color": "@bulletsColor",
+                "display": "inline-block",
+                "border": "4px solid @bulletsColor",
+                "&.active": {
+                  "border-color": "softlight(@bulletsColor, #000000)"
+                }
+              }
+            },
+            "@media (max-width: 768px)": {
+              ".second-col": {
+                "padding-top": "2rem"
+              }
+            }
+          },
+          "_name": "extSlider2",
+          "_sourceTheme": "carm4",
+          "_customHTML": "<section class=\"extSlider testimonials-slider\" group=\"Additional Blocks\" data-bg-video=\"{{bg.type == 'video'&&bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\" plugins=\"BootstrapCarouselSwipe,mbr-testimonials-slider\" data-interval=\"false\">\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n        <input type=\"range\" inline title=\"Items\" name=\"slidesCount\" min=\"1\" max=\"10\" step=\"1\" value=\"3\">\n        <input type=\"checkbox\" title=\"Autoplay\" name=\"showAutoplay\" checked>\n        <input type=\"range\" inline title=\"Autoplay Interval (ms)\" name=\"interval\" min=\"1000\" max=\"8000\" step=\"1000\" value=\"5000\" condition=\"showAutoplay\">\n        <input type=\"color\" title=\"Bullets Color\" name=\"bulletsColor\" value=\"#cccccc\" selected>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/background3.jpg\">\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=l8UXhtqV6hU\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Gradient Background\" name=\"gradientBg\" condition=\"bg.type=='color'\">\n        <input type=\"color\" title=\"Color 2\" name=\"color2\" value=\"#cccccc\" condition=\"gradientBg &&bg.type=='color'\">\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay&&bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay&&bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay&&bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div class=\"main container\">\n        <h2 class=\"mbr-section-title pb-3 mbr-fonts-style mbr-bold align-left\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\">OUR HISTORY\n        </h2>\n        <div class=\"row\">\n            <div class=\"first-col col-md-6\">\n                <h3 class=\"mbr-section-subtitle  mbr-fonts-style align-left mbr-regular\" mbr-theme-style=\"display-7\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle, .mbr-section-btn\"><b>Honda Supra X 125 Fi</b><br>25.062.500 Sporty<br>25.312.500&nbsp; Exc</h3>\n                <div class=\"mbr-section-btn align-left py-2\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-buttons mbr-theme-style=\"display-4\"><a class=\"btn btn-md btn-info\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\">LEARN MORE</a></div>\n            </div> \n            \n            <div class=\"second-col col-md-6\">\n                <div class=\"carousel slide slides\" role=\"listbox\" data-pause=\"true\" data-keyboard=\"false\" data-ride=\"{{showAutoplay ? 'carousel' : 'false'}}\" data-interval=\"{{showAutoplay ? interval : 'false'}}\">\n                    <ol class=\"carousel-indicators\">\n                        <li data-slide-to=\"0\" class=\"active\"></li>\n                        <li mbr-if=\"slidesCount > 1\" data-slide-to=\"1\"></li>\n                        <li mbr-if=\"slidesCount > 2\" data-slide-to=\"2\"></li>\n                        <li mbr-if=\"slidesCount > 3\" data-slide-to=\"3\"></li>\n                        <li mbr-if=\"slidesCount > 4\" data-slide-to=\"4\"></li>\n                        <li mbr-if=\"slidesCount > 5\" data-slide-to=\"5\"></li>\n                        <li mbr-if=\"slidesCount > 6\" data-slide-to=\"6\"></li>\n                        <li mbr-if=\"slidesCount > 7\" data-slide-to=\"7\"></li>\n                        <li mbr-if=\"slidesCount > 8\" data-slide-to=\"8\"></li>\n                        <li mbr-if=\"slidesCount > 9\" data-slide-to=\"9\"></li>\n                    </ol>\n                    <div class=\"carousel-inner\" mbr-list mbr-list-grow=\"slidesCount\" data-visible=\"{{visibleSlides}}\">\n\n                        <div class=\"carousel-item \">\n                            <div class=\"media-container-row\">\n                                <div class=\"col-md-12\">\n                                    <div class=\"wrap-img \">\n                                        <img src=\"@PROJECT_PATH@/assets/images/93474-510x499.png\" class=\"img-responsive clients-img\" alt title>\n                                    </div>\n                                </div>\n                            </div>\n                        </div>\n                    \n                        <div class=\"carousel-item \">\n                            <div class=\"media-container-row\">\n                                <div class=\"col-md-12\">\n                                    <div class=\"wrap-img \">\n                                        <img src=\"@PROJECT_PATH@/assets/images/34157-510x499.png\" class=\"img-responsive clients-img\" alt title>\n                                    </div>\n                                </div>\n                            </div>\n                        </div>\n\n                        <div class=\"carousel-item \">\n                            <div class=\"media-container-row\">\n                                <div class=\"col-md-12\">\n                                    <div class=\"wrap-img \">\n                                        <img src=\"@PROJECT_PATH@/assets/images/93474-510x499.png\" class=\"img-responsive clients-img\" alt title>\n                                    </div>\n                                </div>\n                            </div>\n                        </div>\n                    </div>   \n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_anchor": "extSlider2-2i",
+          "_isUserblock": true,
+          "_cid": "sbSEOowQZy",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": "mobirise4-blocks/components",
+          "_isSecondary": true,
+          "typeCompatible": "type",
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value",
+              "& when (@gradientBg)": {
+                "background": "linear-gradient(@bg-value, @color2)"
+              }
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            ".mbr-section-title": {
+              "letter-spacing": "0.1em",
+              "color": "#232323",
+              "margin-bottom": "2rem"
+            },
+            ".mbr-section-subtitle": {
+              "color": "#232323",
+              "margin-bottom": "2rem",
+              "letter-spacing": "0.03em"
+            },
+            ".btn": {
+              "margin": "0px !important"
+            },
+            ".second-col": {
+              "display": "flex",
+              "-webkit-align-items": "center",
+              "align-items": "center",
+              "-webkit-justify-content": "center",
+              "justify-content": "center"
+            },
+            ".carousel-item": {
+              "-webkit-justify-content": "center",
+              "justify-content": "center",
+              ".media-container-row": {
+                "-webkit-flex-grow": "1",
+                "flex-grow": "1"
+              },
+              ".wrap-img": {
+                "text-align": "center",
+                "img": {
+                  "max-height": "250px",
+                  "width": "auto",
+                  "max-width": "100%"
+                }
+              }
+            },
+            ".carousel": {
+              "display": "flex",
+              "-webkit-flex-direction": "column-reverse",
+              "flex-direction": "column-reverse",
+              "width": "100%"
+            },
+            ".carousel-indicators": {
+              "display": "block",
+              "position": "relative",
+              "margin-top": "2rem",
+              "text-align": "center",
+              "li": {
+                "width": "7px",
+                "height": "7px",
+                "border-radius": "50%",
+                "background-color": "@bulletsColor",
+                "display": "inline-block",
+                "border": "4px solid @bulletsColor",
+                "&.active": {
+                  "border-color": "softlight(@bulletsColor, #000000)"
+                }
+              }
+            },
+            "@media (max-width: 768px)": {
+              ".second-col": {
+                "padding-top": "2rem"
+              }
+            }
+          },
+          "_name": "extSlider2",
+          "_sourceTheme": "carm4",
+          "_customHTML": "<section class=\"extSlider testimonials-slider\" group=\"Additional Blocks\" data-bg-video=\"{{bg.type == 'video'&&bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\" plugins=\"BootstrapCarouselSwipe,mbr-testimonials-slider\" data-interval=\"false\">\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n        <input type=\"range\" inline title=\"Items\" name=\"slidesCount\" min=\"1\" max=\"10\" step=\"1\" value=\"3\">\n        <input type=\"checkbox\" title=\"Autoplay\" name=\"showAutoplay\" checked>\n        <input type=\"range\" inline title=\"Autoplay Interval (ms)\" name=\"interval\" min=\"1000\" max=\"8000\" step=\"1000\" value=\"5000\" condition=\"showAutoplay\">\n        <input type=\"color\" title=\"Bullets Color\" name=\"bulletsColor\" value=\"#cccccc\" selected>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/background3.jpg\">\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=l8UXhtqV6hU\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Gradient Background\" name=\"gradientBg\" condition=\"bg.type=='color'\">\n        <input type=\"color\" title=\"Color 2\" name=\"color2\" value=\"#cccccc\" condition=\"gradientBg &&bg.type=='color'\">\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay&&bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay&&bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay&&bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div class=\"main container\">\n        <h2 class=\"mbr-section-title pb-3 mbr-fonts-style mbr-bold align-left\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\">OUR HISTORY\n        </h2>\n        <div class=\"row\">\n            <div class=\"first-col col-md-6\">\n                <h3 class=\"mbr-section-subtitle  mbr-fonts-style align-left mbr-regular\" mbr-theme-style=\"display-7\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle, .mbr-section-btn\"><b>Honda CBR 150R</b><br>28.568.500 R<br>29.668.500 SE</h3>\n                <div class=\"mbr-section-btn align-left py-2\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-buttons mbr-theme-style=\"display-4\"><a class=\"btn btn-md btn-info\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\">LEARN MORE</a></div>\n            </div> \n            \n            <div class=\"second-col col-md-6\">\n                <div class=\"carousel slide slides\" role=\"listbox\" data-pause=\"true\" data-keyboard=\"false\" data-ride=\"{{showAutoplay ? 'carousel' : 'false'}}\" data-interval=\"{{showAutoplay ? interval : 'false'}}\">\n                    <ol class=\"carousel-indicators\">\n                        <li data-slide-to=\"0\" class=\"active\"></li>\n                        <li mbr-if=\"slidesCount > 1\" data-slide-to=\"1\"></li>\n                        <li mbr-if=\"slidesCount > 2\" data-slide-to=\"2\"></li>\n                        <li mbr-if=\"slidesCount > 3\" data-slide-to=\"3\"></li>\n                        <li mbr-if=\"slidesCount > 4\" data-slide-to=\"4\"></li>\n                        <li mbr-if=\"slidesCount > 5\" data-slide-to=\"5\"></li>\n                        <li mbr-if=\"slidesCount > 6\" data-slide-to=\"6\"></li>\n                        <li mbr-if=\"slidesCount > 7\" data-slide-to=\"7\"></li>\n                        <li mbr-if=\"slidesCount > 8\" data-slide-to=\"8\"></li>\n                        <li mbr-if=\"slidesCount > 9\" data-slide-to=\"9\"></li>\n                    </ol>\n                    <div class=\"carousel-inner\" mbr-list mbr-list-grow=\"slidesCount\" data-visible=\"{{visibleSlides}}\">\n\n                        <div class=\"carousel-item \">\n                            <div class=\"media-container-row\">\n                                <div class=\"col-md-12\">\n                                    <div class=\"wrap-img \">\n                                        <img src=\"@PROJECT_PATH@/assets/images/27547-510x499.jpg\" class=\"img-responsive clients-img\" alt title>\n                                    </div>\n                                </div>\n                            </div>\n                        </div>\n                    \n                        <div class=\"carousel-item \">\n                            <div class=\"media-container-row\">\n                                <div class=\"col-md-12\">\n                                    <div class=\"wrap-img \">\n                                        <img src=\"@PROJECT_PATH@/assets/images/57424-510x499.jpg\" class=\"img-responsive clients-img\" alt title>\n                                    </div>\n                                </div>\n                            </div>\n                        </div>\n\n                        <div class=\"carousel-item \">\n                            <div class=\"media-container-row\">\n                                <div class=\"col-md-12\">\n                                    <div class=\"wrap-img \">\n                                        <img src=\"@PROJECT_PATH@/assets/images/11411-510x499.png\" class=\"img-responsive clients-img\" alt title>\n                                    </div>\n                                </div>\n                            </div>\n                        </div>\n                    </div>   \n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_anchor": "extSlider2-2o",
+          "_isUserblock": true,
+          "_cid": "sbSEU0kxNZ",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": "mobirise4-blocks/components",
+          "_isSecondary": true,
+          "typeCompatible": "type",
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value",
+              "& when (@gradientBg)": {
+                "background": "linear-gradient(@bg-value, @color2)"
+              }
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            ".mbr-section-title": {
+              "letter-spacing": "0.1em",
+              "color": "#232323",
+              "margin-bottom": "2rem"
+            },
+            ".mbr-section-subtitle": {
+              "color": "#232323",
+              "margin-bottom": "2rem",
+              "letter-spacing": "0.03em"
+            },
+            ".btn": {
+              "margin": "0px !important"
+            },
+            ".second-col": {
+              "display": "flex",
+              "-webkit-align-items": "center",
+              "align-items": "center",
+              "-webkit-justify-content": "center",
+              "justify-content": "center"
+            },
+            ".carousel-item": {
+              "-webkit-justify-content": "center",
+              "justify-content": "center",
+              ".media-container-row": {
+                "-webkit-flex-grow": "1",
+                "flex-grow": "1"
+              },
+              ".wrap-img": {
+                "text-align": "center",
+                "img": {
+                  "max-height": "250px",
+                  "width": "auto",
+                  "max-width": "100%"
+                }
+              }
+            },
+            ".carousel": {
+              "display": "flex",
+              "-webkit-flex-direction": "column-reverse",
+              "flex-direction": "column-reverse",
+              "width": "100%"
+            },
+            ".carousel-indicators": {
+              "display": "block",
+              "position": "relative",
+              "margin-top": "2rem",
+              "text-align": "center",
+              "li": {
+                "width": "7px",
+                "height": "7px",
+                "border-radius": "50%",
+                "background-color": "@bulletsColor",
+                "display": "inline-block",
+                "border": "4px solid @bulletsColor",
+                "&.active": {
+                  "border-color": "softlight(@bulletsColor, #000000)"
+                }
+              }
+            },
+            "@media (max-width: 768px)": {
+              ".second-col": {
+                "padding-top": "2rem"
+              }
+            }
+          },
+          "_name": "extSlider2",
+          "_sourceTheme": "carm4",
+          "_customHTML": "<section class=\"extSlider testimonials-slider\" group=\"Additional Blocks\" data-bg-video=\"{{bg.type == 'video'&&bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\" plugins=\"BootstrapCarouselSwipe,mbr-testimonials-slider\" data-interval=\"false\">\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n        <input type=\"range\" inline title=\"Items\" name=\"slidesCount\" min=\"1\" max=\"10\" step=\"1\" value=\"3\">\n        <input type=\"checkbox\" title=\"Autoplay\" name=\"showAutoplay\" checked>\n        <input type=\"range\" inline title=\"Autoplay Interval (ms)\" name=\"interval\" min=\"1000\" max=\"8000\" step=\"1000\" value=\"5000\" condition=\"showAutoplay\">\n        <input type=\"color\" title=\"Bullets Color\" name=\"bulletsColor\" value=\"#cccccc\" selected>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/background3.jpg\">\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=l8UXhtqV6hU\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Gradient Background\" name=\"gradientBg\" condition=\"bg.type=='color'\">\n        <input type=\"color\" title=\"Color 2\" name=\"color2\" value=\"#cccccc\" condition=\"gradientBg &&bg.type=='color'\">\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay&&bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay&&bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay&&bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div class=\"main container\">\n        <h2 class=\"mbr-section-title pb-3 mbr-fonts-style mbr-bold align-left\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\">OUR HISTORY\n        </h2>\n        <div class=\"row\">\n            <div class=\"first-col col-md-6\">\n                <h3 class=\"mbr-section-subtitle  mbr-fonts-style align-left mbr-regular\" mbr-theme-style=\"display-7\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle, .mbr-section-btn\"><b>Honda CBR 150R</b><br>36.212.500&nbsp; STD Black<br>36.859.500 STD Red<br>37.059.500 STD Repsol<br>40.159.500 ABS Black<br>40.859.500 ABS Red<br>41.059.500&nbsp; ABS Repsol</h3>\n                <div class=\"mbr-section-btn align-left py-2\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-buttons mbr-theme-style=\"display-4\"><a class=\"btn btn-md btn-info\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\">LEARN MORE</a></div>\n            </div> \n            \n            <div class=\"second-col col-md-6\">\n                <div class=\"carousel slide slides\" role=\"listbox\" data-pause=\"true\" data-keyboard=\"false\" data-ride=\"{{showAutoplay ? 'carousel' : 'false'}}\" data-interval=\"{{showAutoplay ? interval : 'false'}}\">\n                    <ol class=\"carousel-indicators\">\n                        <li data-slide-to=\"0\" class=\"active\"></li>\n                        <li mbr-if=\"slidesCount > 1\" data-slide-to=\"1\"></li>\n                        <li mbr-if=\"slidesCount > 2\" data-slide-to=\"2\"></li>\n                        <li mbr-if=\"slidesCount > 3\" data-slide-to=\"3\"></li>\n                        <li mbr-if=\"slidesCount > 4\" data-slide-to=\"4\"></li>\n                        <li mbr-if=\"slidesCount > 5\" data-slide-to=\"5\"></li>\n                        <li mbr-if=\"slidesCount > 6\" data-slide-to=\"6\"></li>\n                        <li mbr-if=\"slidesCount > 7\" data-slide-to=\"7\"></li>\n                        <li mbr-if=\"slidesCount > 8\" data-slide-to=\"8\"></li>\n                        <li mbr-if=\"slidesCount > 9\" data-slide-to=\"9\"></li>\n                    </ol>\n                    <div class=\"carousel-inner\" mbr-list mbr-list-grow=\"slidesCount\" data-visible=\"{{visibleSlides}}\">\n\n                        <div class=\"carousel-item \">\n                            <div class=\"media-container-row\">\n                                <div class=\"col-md-12\">\n                                    <div class=\"wrap-img \">\n                                        <img src=\"@PROJECT_PATH@/assets/images/19172-510x499.png\" class=\"img-responsive clients-img\" alt title>\n                                    </div>\n                                </div>\n                            </div>\n                        </div>\n                    \n                        <div class=\"carousel-item \">\n                            <div class=\"media-container-row\">\n                                <div class=\"col-md-12\">\n                                    <div class=\"wrap-img \">\n                                        <img src=\"@PROJECT_PATH@/assets/images/22451-510x499.png\" class=\"img-responsive clients-img\" alt title>\n                                    </div>\n                                </div>\n                            </div>\n                        </div>\n\n                        <div class=\"carousel-item \">\n                            <div class=\"media-container-row\">\n                                <div class=\"col-md-12\">\n                                    <div class=\"wrap-img \">\n                                        <img src=\"@PROJECT_PATH@/assets/images/22231-510x499.png\" class=\"img-responsive clients-img\" alt title>\n                                    </div>\n                                </div>\n                            </div>\n                        </div>\n                    </div>   \n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_anchor": "extSlider2-2p",
+          "_isUserblock": true,
+          "_cid": "sbSEUmbvJQ",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": "mobirise4-blocks/components",
+          "_isSecondary": true,
+          "typeCompatible": "type",
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value",
+              "& when (@gradientBg)": {
+                "background": "linear-gradient(@bg-value, @color2)"
+              }
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            ".mbr-section-title": {
+              "letter-spacing": "0.1em",
+              "color": "#232323",
+              "margin-bottom": "2rem"
+            },
+            ".mbr-section-subtitle": {
+              "color": "#232323",
+              "margin-bottom": "2rem",
+              "letter-spacing": "0.03em"
+            },
+            ".btn": {
+              "margin": "0px !important"
+            },
+            ".second-col": {
+              "display": "flex",
+              "-webkit-align-items": "center",
+              "align-items": "center",
+              "-webkit-justify-content": "center",
+              "justify-content": "center"
+            },
+            ".carousel-item": {
+              "-webkit-justify-content": "center",
+              "justify-content": "center",
+              ".media-container-row": {
+                "-webkit-flex-grow": "1",
+                "flex-grow": "1"
+              },
+              ".wrap-img": {
+                "text-align": "center",
+                "img": {
+                  "max-height": "250px",
+                  "width": "auto",
+                  "max-width": "100%"
+                }
+              }
+            },
+            ".carousel": {
+              "display": "flex",
+              "-webkit-flex-direction": "column-reverse",
+              "flex-direction": "column-reverse",
+              "width": "100%"
+            },
+            ".carousel-indicators": {
+              "display": "block",
+              "position": "relative",
+              "margin-top": "2rem",
+              "text-align": "center",
+              "li": {
+                "width": "7px",
+                "height": "7px",
+                "border-radius": "50%",
+                "background-color": "@bulletsColor",
+                "display": "inline-block",
+                "border": "4px solid @bulletsColor",
+                "&.active": {
+                  "border-color": "softlight(@bulletsColor, #000000)"
+                }
+              }
+            },
+            "@media (max-width: 768px)": {
+              ".second-col": {
+                "padding-top": "2rem"
+              }
+            }
+          },
+          "_name": "extSlider2",
+          "_sourceTheme": "carm4",
+          "_customHTML": "<section class=\"extSlider testimonials-slider\" group=\"Additional Blocks\" data-bg-video=\"{{bg.type == 'video'&&bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\" plugins=\"BootstrapCarouselSwipe,mbr-testimonials-slider\" data-interval=\"false\">\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n        <input type=\"range\" inline title=\"Items\" name=\"slidesCount\" min=\"1\" max=\"10\" step=\"1\" value=\"3\">\n        <input type=\"checkbox\" title=\"Autoplay\" name=\"showAutoplay\" checked>\n        <input type=\"range\" inline title=\"Autoplay Interval (ms)\" name=\"interval\" min=\"1000\" max=\"8000\" step=\"1000\" value=\"5000\" condition=\"showAutoplay\">\n        <input type=\"color\" title=\"Bullets Color\" name=\"bulletsColor\" value=\"#cccccc\" selected>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/background3.jpg\">\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=l8UXhtqV6hU\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Gradient Background\" name=\"gradientBg\" condition=\"bg.type=='color'\">\n        <input type=\"color\" title=\"Color 2\" name=\"color2\" value=\"#cccccc\" condition=\"gradientBg &&bg.type=='color'\">\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay&&bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay&&bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay&&bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div class=\"main container\">\n        <h2 class=\"mbr-section-title pb-3 mbr-fonts-style mbr-bold align-left\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\">OUR HISTORY\n        </h2>\n        <div class=\"row\">\n            <div class=\"first-col col-md-6\">\n                <h3 class=\"mbr-section-subtitle  mbr-fonts-style align-left mbr-regular\" mbr-theme-style=\"display-7\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle, .mbr-section-btn\"><b>Honda CBR 250RR</b><br>62.061.500&nbsp; STD Black<br>66.886.500&nbsp;STD Matt<br>67.486.500 STD Repsol<br>73.571.500&nbsp; ABS Matt<br>74.171.500&nbsp; &nbsp;ABS Repsol</h3>\n                <div class=\"mbr-section-btn align-left py-2\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-buttons mbr-theme-style=\"display-4\"><a class=\"btn btn-md btn-info\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\">LEARN MORE</a></div>\n            </div> \n            \n            <div class=\"second-col col-md-6\">\n                <div class=\"carousel slide slides\" role=\"listbox\" data-pause=\"true\" data-keyboard=\"false\" data-ride=\"{{showAutoplay ? 'carousel' : 'false'}}\" data-interval=\"{{showAutoplay ? interval : 'false'}}\">\n                    <ol class=\"carousel-indicators\">\n                        <li data-slide-to=\"0\" class=\"active\"></li>\n                        <li mbr-if=\"slidesCount > 1\" data-slide-to=\"1\"></li>\n                        <li mbr-if=\"slidesCount > 2\" data-slide-to=\"2\"></li>\n                        <li mbr-if=\"slidesCount > 3\" data-slide-to=\"3\"></li>\n                        <li mbr-if=\"slidesCount > 4\" data-slide-to=\"4\"></li>\n                        <li mbr-if=\"slidesCount > 5\" data-slide-to=\"5\"></li>\n                        <li mbr-if=\"slidesCount > 6\" data-slide-to=\"6\"></li>\n                        <li mbr-if=\"slidesCount > 7\" data-slide-to=\"7\"></li>\n                        <li mbr-if=\"slidesCount > 8\" data-slide-to=\"8\"></li>\n                        <li mbr-if=\"slidesCount > 9\" data-slide-to=\"9\"></li>\n                    </ol>\n                    <div class=\"carousel-inner\" mbr-list mbr-list-grow=\"slidesCount\" data-visible=\"{{visibleSlides}}\">\n\n                        <div class=\"carousel-item \">\n                            <div class=\"media-container-row\">\n                                <div class=\"col-md-12\">\n                                    <div class=\"wrap-img \">\n                                        <img src=\"@PROJECT_PATH@/assets/images/40832-510x499.png\" class=\"img-responsive clients-img\" alt title>\n                                    </div>\n                                </div>\n                            </div>\n                        </div>\n                    \n                        <div class=\"carousel-item \">\n                            <div class=\"media-container-row\">\n                                <div class=\"col-md-12\">\n                                    <div class=\"wrap-img \">\n                                        <img src=\"@PROJECT_PATH@/assets/images/29357-510x499.png\" class=\"img-responsive clients-img\" alt title>\n                                    </div>\n                                </div>\n                            </div>\n                        </div>\n\n                        <div class=\"carousel-item \">\n                            <div class=\"media-container-row\">\n                                <div class=\"col-md-12\">\n                                    <div class=\"wrap-img \">\n                                        <img src=\"@PROJECT_PATH@/assets/images/47539-510x499.png\" class=\"img-responsive clients-img\" alt title>\n                                    </div>\n                                </div>\n                            </div>\n                        </div>\n                    </div>   \n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_anchor": "extSlider2-2q",
+          "_isUserblock": true,
+          "_cid": "sbSEUJ8YW3",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": "mobirise4-blocks/components",
+          "_isSecondary": true,
+          "typeCompatible": "type",
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value",
+              "& when (@gradientBg)": {
+                "background": "linear-gradient(@bg-value, @color2)"
+              }
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            ".mbr-section-title": {
+              "letter-spacing": "0.1em",
+              "color": "#232323",
+              "margin-bottom": "2rem"
+            },
+            ".mbr-section-subtitle": {
+              "color": "#232323",
+              "margin-bottom": "2rem",
+              "letter-spacing": "0.03em"
+            },
+            ".btn": {
+              "margin": "0px !important"
+            },
+            ".second-col": {
+              "display": "flex",
+              "-webkit-align-items": "center",
+              "align-items": "center",
+              "-webkit-justify-content": "center",
+              "justify-content": "center"
+            },
+            ".carousel-item": {
+              "-webkit-justify-content": "center",
+              "justify-content": "center",
+              ".media-container-row": {
+                "-webkit-flex-grow": "1",
+                "flex-grow": "1"
+              },
+              ".wrap-img": {
+                "text-align": "center",
+                "img": {
+                  "max-height": "250px",
+                  "width": "auto",
+                  "max-width": "100%"
+                }
+              }
+            },
+            ".carousel": {
+              "display": "flex",
+              "-webkit-flex-direction": "column-reverse",
+              "flex-direction": "column-reverse",
+              "width": "100%"
+            },
+            ".carousel-indicators": {
+              "display": "block",
+              "position": "relative",
+              "margin-top": "2rem",
+              "text-align": "center",
+              "li": {
+                "width": "7px",
+                "height": "7px",
+                "border-radius": "50%",
+                "background-color": "@bulletsColor",
+                "display": "inline-block",
+                "border": "4px solid @bulletsColor",
+                "&.active": {
+                  "border-color": "softlight(@bulletsColor, #000000)"
+                }
+              }
+            },
+            "@media (max-width: 768px)": {
+              ".second-col": {
+                "padding-top": "2rem"
+              }
+            }
+          },
+          "_name": "extSlider2",
+          "_sourceTheme": "carm4",
+          "_customHTML": "<section class=\"extSlider testimonials-slider\" group=\"Additional Blocks\" data-bg-video=\"{{bg.type == 'video'&&bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\" plugins=\"BootstrapCarouselSwipe,mbr-testimonials-slider\" data-interval=\"false\">\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n        <input type=\"range\" inline title=\"Items\" name=\"slidesCount\" min=\"1\" max=\"10\" step=\"1\" value=\"3\">\n        <input type=\"checkbox\" title=\"Autoplay\" name=\"showAutoplay\" checked>\n        <input type=\"range\" inline title=\"Autoplay Interval (ms)\" name=\"interval\" min=\"1000\" max=\"8000\" step=\"1000\" value=\"5000\" condition=\"showAutoplay\">\n        <input type=\"color\" title=\"Bullets Color\" name=\"bulletsColor\" value=\"#cccccc\" selected>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/background3.jpg\">\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=l8UXhtqV6hU\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Gradient Background\" name=\"gradientBg\" condition=\"bg.type=='color'\">\n        <input type=\"color\" title=\"Color 2\" name=\"color2\" value=\"#cccccc\" condition=\"gradientBg &&bg.type=='color'\">\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay&&bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay&&bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay&&bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div class=\"main container\">\n        <h2 class=\"mbr-section-title pb-3 mbr-fonts-style mbr-bold align-left\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\">OUR HISTORY\n        </h2>\n        <div class=\"row\">\n            <div class=\"first-col col-md-6\">\n                <h3 class=\"mbr-section-subtitle  mbr-fonts-style align-left mbr-regular\" mbr-theme-style=\"display-7\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle, .mbr-section-btn\"><b>Honda CB 150 Verza</b> <br>21.353.500&nbsp; SW<br>22.002.500 CW</h3>\n                <div class=\"mbr-section-btn align-left py-2\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-buttons mbr-theme-style=\"display-4\"><a class=\"btn btn-md btn-info\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\">LEARN MORE</a></div>\n            </div> \n            \n            <div class=\"second-col col-md-6\">\n                <div class=\"carousel slide slides\" role=\"listbox\" data-pause=\"true\" data-keyboard=\"false\" data-ride=\"{{showAutoplay ? 'carousel' : 'false'}}\" data-interval=\"{{showAutoplay ? interval : 'false'}}\">\n                    <ol class=\"carousel-indicators\">\n                        <li data-slide-to=\"0\" class=\"active\"></li>\n                        <li mbr-if=\"slidesCount > 1\" data-slide-to=\"1\"></li>\n                        <li mbr-if=\"slidesCount > 2\" data-slide-to=\"2\"></li>\n                        <li mbr-if=\"slidesCount > 3\" data-slide-to=\"3\"></li>\n                        <li mbr-if=\"slidesCount > 4\" data-slide-to=\"4\"></li>\n                        <li mbr-if=\"slidesCount > 5\" data-slide-to=\"5\"></li>\n                        <li mbr-if=\"slidesCount > 6\" data-slide-to=\"6\"></li>\n                        <li mbr-if=\"slidesCount > 7\" data-slide-to=\"7\"></li>\n                        <li mbr-if=\"slidesCount > 8\" data-slide-to=\"8\"></li>\n                        <li mbr-if=\"slidesCount > 9\" data-slide-to=\"9\"></li>\n                    </ol>\n                    <div class=\"carousel-inner\" mbr-list mbr-list-grow=\"slidesCount\" data-visible=\"{{visibleSlides}}\">\n\n                        <div class=\"carousel-item \">\n                            <div class=\"media-container-row\">\n                                <div class=\"col-md-12\">\n                                    <div class=\"wrap-img \">\n                                        <img src=\"@PROJECT_PATH@/assets/images/59308-510x499.png\" class=\"img-responsive clients-img\" alt title>\n                                    </div>\n                                </div>\n                            </div>\n                        </div>\n                    \n                        <div class=\"carousel-item \">\n                            <div class=\"media-container-row\">\n                                <div class=\"col-md-12\">\n                                    <div class=\"wrap-img \">\n                                        <img src=\"@PROJECT_PATH@/assets/images/22537-510x499.png\" class=\"img-responsive clients-img\" alt title>\n                                    </div>\n                                </div>\n                            </div>\n                        </div>\n\n                        <div class=\"carousel-item \">\n                            <div class=\"media-container-row\">\n                                <div class=\"col-md-12\">\n                                    <div class=\"wrap-img \">\n                                        <img src=\"@PROJECT_PATH@/assets/images/40924-510x499.png\" class=\"img-responsive clients-img\" alt title>\n                                    </div>\n                                </div>\n                            </div>\n                        </div>\n                    </div>   \n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_anchor": "extSlider2-2r",
+          "_isUserblock": true,
+          "_cid": "sbSEV3ONaB",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": "mobirise4-blocks/components",
+          "_isSecondary": true,
+          "typeCompatible": "type",
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value",
+              "& when (@gradientBg)": {
+                "background": "linear-gradient(@bg-value, @color2)"
+              }
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            ".mbr-section-title": {
+              "letter-spacing": "0.1em",
+              "color": "#232323",
+              "margin-bottom": "2rem"
+            },
+            ".mbr-section-subtitle": {
+              "color": "#232323",
+              "margin-bottom": "2rem",
+              "letter-spacing": "0.03em"
+            },
+            ".btn": {
+              "margin": "0px !important"
+            },
+            ".second-col": {
+              "display": "flex",
+              "-webkit-align-items": "center",
+              "align-items": "center",
+              "-webkit-justify-content": "center",
+              "justify-content": "center"
+            },
+            ".carousel-item": {
+              "-webkit-justify-content": "center",
+              "justify-content": "center",
+              ".media-container-row": {
+                "-webkit-flex-grow": "1",
+                "flex-grow": "1"
+              },
+              ".wrap-img": {
+                "text-align": "center",
+                "img": {
+                  "max-height": "250px",
+                  "width": "auto",
+                  "max-width": "100%"
+                }
+              }
+            },
+            ".carousel": {
+              "display": "flex",
+              "-webkit-flex-direction": "column-reverse",
+              "flex-direction": "column-reverse",
+              "width": "100%"
+            },
+            ".carousel-indicators": {
+              "display": "block",
+              "position": "relative",
+              "margin-top": "2rem",
+              "text-align": "center",
+              "li": {
+                "width": "7px",
+                "height": "7px",
+                "border-radius": "50%",
+                "background-color": "@bulletsColor",
+                "display": "inline-block",
+                "border": "4px solid @bulletsColor",
+                "&.active": {
+                  "border-color": "softlight(@bulletsColor, #000000)"
+                }
+              }
+            },
+            "@media (max-width: 768px)": {
+              ".second-col": {
+                "padding-top": "2rem"
+              }
+            }
+          },
+          "_name": "extSlider2",
+          "_sourceTheme": "carm4",
+          "_customHTML": "<section class=\"extSlider testimonials-slider\" group=\"Additional Blocks\" data-bg-video=\"{{bg.type == 'video'&&bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\" plugins=\"BootstrapCarouselSwipe,mbr-testimonials-slider\" data-interval=\"false\">\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n        <input type=\"range\" inline title=\"Items\" name=\"slidesCount\" min=\"1\" max=\"10\" step=\"1\" value=\"3\">\n        <input type=\"checkbox\" title=\"Autoplay\" name=\"showAutoplay\" checked>\n        <input type=\"range\" inline title=\"Autoplay Interval (ms)\" name=\"interval\" min=\"1000\" max=\"8000\" step=\"1000\" value=\"5000\" condition=\"showAutoplay\">\n        <input type=\"color\" title=\"Bullets Color\" name=\"bulletsColor\" value=\"#cccccc\" selected>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/background3.jpg\">\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=l8UXhtqV6hU\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Gradient Background\" name=\"gradientBg\" condition=\"bg.type=='color'\">\n        <input type=\"color\" title=\"Color 2\" name=\"color2\" value=\"#cccccc\" condition=\"gradientBg &&bg.type=='color'\">\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay&&bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay&&bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay&&bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div class=\"main container\">\n        <h2 class=\"mbr-section-title pb-3 mbr-fonts-style mbr-bold align-left\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\">OUR HISTORY\n        </h2>\n        <div class=\"row\">\n            <div class=\"first-col col-md-6\">\n                <h3 class=\"mbr-section-subtitle  mbr-fonts-style align-left mbr-regular\" mbr-theme-style=\"display-7\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle, .mbr-section-btn\"><b>Honda CRF 250 Rally</b> <br>34.998.500<br></h3>\n                <div class=\"mbr-section-btn align-left py-2\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-buttons mbr-theme-style=\"display-4\"><a class=\"btn btn-md btn-info\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\">LEARN MORE</a></div>\n            </div> \n            \n            <div class=\"second-col col-md-6\">\n                <div class=\"carousel slide slides\" role=\"listbox\" data-pause=\"true\" data-keyboard=\"false\" data-ride=\"{{showAutoplay ? 'carousel' : 'false'}}\" data-interval=\"{{showAutoplay ? interval : 'false'}}\">\n                    <ol class=\"carousel-indicators\">\n                        <li data-slide-to=\"0\" class=\"active\"></li>\n                        <li mbr-if=\"slidesCount > 1\" data-slide-to=\"1\"></li>\n                        <li mbr-if=\"slidesCount > 2\" data-slide-to=\"2\"></li>\n                        <li mbr-if=\"slidesCount > 3\" data-slide-to=\"3\"></li>\n                        <li mbr-if=\"slidesCount > 4\" data-slide-to=\"4\"></li>\n                        <li mbr-if=\"slidesCount > 5\" data-slide-to=\"5\"></li>\n                        <li mbr-if=\"slidesCount > 6\" data-slide-to=\"6\"></li>\n                        <li mbr-if=\"slidesCount > 7\" data-slide-to=\"7\"></li>\n                        <li mbr-if=\"slidesCount > 8\" data-slide-to=\"8\"></li>\n                        <li mbr-if=\"slidesCount > 9\" data-slide-to=\"9\"></li>\n                    </ol>\n                    <div class=\"carousel-inner\" mbr-list mbr-list-grow=\"slidesCount\" data-visible=\"{{visibleSlides}}\">\n\n                        <div class=\"carousel-item \">\n                            <div class=\"media-container-row\">\n                                <div class=\"col-md-12\">\n                                    <div class=\"wrap-img \">\n                                        <img src=\"@PROJECT_PATH@/assets/images/78593-510x499.png\" class=\"img-responsive clients-img\" alt title>\n                                    </div>\n                                </div>\n                            </div>\n                        </div>\n                    \n                        <div class=\"carousel-item \">\n                            <div class=\"media-container-row\">\n                                <div class=\"col-md-12\">\n                                    <div class=\"wrap-img \">\n                                        <img src=\"@PROJECT_PATH@/assets/images/72334-510x499.png\" class=\"img-responsive clients-img\" alt title>\n                                    </div>\n                                </div>\n                            </div>\n                        </div>\n\n                        <div class=\"carousel-item \">\n                            <div class=\"media-container-row\">\n                                <div class=\"col-md-12\">\n                                    <div class=\"wrap-img \">\n                                        <img src=\"@PROJECT_PATH@/assets/images/78593-510x499.png\" class=\"img-responsive clients-img\" alt title>\n                                    </div>\n                                </div>\n                            </div>\n                        </div>\n                    </div>   \n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_anchor": "extSlider2-2n",
+          "_isUserblock": true,
+          "_cid": "sbSETyjpwG",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
