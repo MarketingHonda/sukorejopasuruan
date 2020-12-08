@@ -57,7 +57,7 @@
     "pwa-switcher": false,
     "publishChangesOnly": true,
     "uniqCompNum": 100,
-    "versionPublish": "5.2.0",
+    "versionPublish": "5.2.2",
     "screenshot": "screenshot.png",
     "global_after_body": "",
     "global_footer_custom": "",
